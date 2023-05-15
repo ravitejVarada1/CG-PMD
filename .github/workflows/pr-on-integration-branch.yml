@@ -6,7 +6,7 @@ name: Validate PR on integration branch
 on:
     pull_request:
       # This workflow will run when a pull request is opened, or when a commit is pushed
-      # to a branch that has an existing pull request
+      # to a branch that has ddddan existing pull request
       types: [opened, synchronize]
       branches: [ main ]
       # We only care about changes to the force-app directory. This prevents the job from running
